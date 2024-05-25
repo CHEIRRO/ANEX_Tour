@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Sight"
+        android:icon="@drawable/sight"
+        android:title="Достопримечательности" />
+    <item
+        android:id="@+id/Entertainment"
+        android:icon="@drawable/activity"
+        android:title="Активности" />
+    <item
+        android:id="@+id/Routs"
+        android:icon="@drawable/routs"
+        android:title="Маршруты" />
+</menu>

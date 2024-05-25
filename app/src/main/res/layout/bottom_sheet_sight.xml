@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/top_string_black"
+        android:layout_alignParentTop="true"/>
+
+
+    <EditText
+        android:id="@+id/field1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Заголовок"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/field2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата создания"
+        android:layout_below="@id/field1"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/field3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание"
+        android:layout_below="@id/field2"
+        android:layout_marginTop="8dp" />
+
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/field3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/top_strip_gradient"
+        android:text="Сохранить" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Главная группа -->
+    <group android:id="@+id/group_main">
+        <item
+            android:id="@+id/change_profile"
+            android:icon="@drawable/profile"
+            android:title="Сменить профиль" />
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/information"
+            android:title="О приложении" />
+    </group>
+
+    <!-- Вторая группа -->
+    <group android:id="@+id/group_main_sections">
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/favorites"
+            android:title="Избранное" />
+        <item
+            android:id="@+id/nav_sight"
+            android:icon="@drawable/sight"
+            android:title="Достопримечательности" />
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/activity"
+            android:title="Активности" />
+        <item
+            android:id="@+id/nav_routs"
+            android:icon="@drawable/routs"
+            android:title="Маршруты" />
+    </group>
+
+    <!-- Третья группа -->
+    <group android:id="@+id/group_settings">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/search"
+            android:title="Поиск" />
+    </group>
+
+</menu>
